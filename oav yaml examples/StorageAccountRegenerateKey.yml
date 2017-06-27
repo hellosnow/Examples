@@ -1,0 +1,46 @@
+#Request
+request: |
+  POST https://management.azure.com/subscriptions/27de630f-e1ee-42de-8849-90def4986454/resourceGroups/res4167/providers/Microsoft.Storage/storageAccounts/sto3539/regenerateKey?api-version=2017-06-01 HTTP/1.1
+  Authorization: Bearer <token>
+  Content-Length: 18
+  Content-Type: application/json
+  accept-language: en-US
+  x-ms-client-request-id: 962d5cdc-5a0b-420a-83ad-fda0d3700c64
+  host: management.azure.com
+  Connection: close
+
+  {"keyName":"key2"}
+
+#Curl
+curl: |
+  curl -X POST 'https://management.azure.com/subscriptions/27de630f-e1ee-42de-8849-90def4986454/resourceGroups/res4167/providers/Microsoft.Storage/storageAccounts/sto3539/regenerateKey?api-version=2017-06-01' \
+  -H 'authorization: bearer <token>' \
+  -H 'Content-Length: 18' \
+  -H 'Content-Type: application/json' \
+  -H 'accept-language: en-US' \
+  -H 'x-ms-client-request-id: 962d5cdc-5a0b-420a-83ad-fda0d3700c64' \
+  -d @- << EOF
+  {
+    "keyName": "key2"
+  }
+  EOF
+
+#Response
+response:
+  #200
+  200: |
+    HTTP 1.1 200
+    Cache-Control: no-cache
+    Pragma: no-cache
+    Expires: -1
+    x-ms-ratelimit-remaining-subscription-writes: 1199
+    x-ms-request-id: 3f5555f8-89c4-4a4a-adb9-729dc31ccafe
+    x-ms-correlation-request-id: 3f5555f8-89c4-4a4a-adb9-729dc31ccafe
+    x-ms-routing-request-id: WESTUS2:20170627T081750067Z:3f5555f8-89c4-4a4a-adb9-729dc31ccafe
+    Strict-Transport-Security: max-age=31536000; includeSubDomains
+    Content-Length: 288
+    content-type: application/json
+    Date: Tue, 27 Jun 2017 08:17:50 GMT
+    Connection: close
+
+    {"keys":[{"keyName":"key1","permissions":"Full","value":"7xl+yQ4MrVpZCHspveCfy4f8jgTY1wv42gHO8k4bAX+EPvN4hY5uPau/bpofgeye+K9FtgvjkadkLISPfOxlMw=="},{"keyName":"key2","permissions":"Full","value":"uC+kyJ9/gT81E/+9I1Go4xtOe8sW5rdIm3n6PNIyQ5kGO5OpFq69aWnrn3jLeFIyItzpln9P392U0353RYKvbg=="}]}
