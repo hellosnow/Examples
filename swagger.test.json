@@ -14175,6 +14175,7 @@
         },
         "intune_details": {
           "description": "store details for intune",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/IntuneStoreResponse"
           }
