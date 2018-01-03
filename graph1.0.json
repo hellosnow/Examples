@@ -16,7 +16,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Get entities from directoryObjects",
+        "operationId": "Get entities from directoryObjects",
         "produces": [
           "application/json"
         ],
@@ -99,7 +99,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Add new entity to directoryObjects",
+        "operationId": "Add new entity to directoryObjects",
         "consumes": [
           "application/json"
         ],
@@ -134,7 +134,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Get entity from directoryObjects by key",
+        "operationId": "Get entity from directoryObjects by key",
         "produces": [
           "application/json"
         ],
@@ -187,7 +187,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Update entity in directoryObjects",
+        "operationId": "Update entity in directoryObjects",
         "consumes": [
           "application/json"
         ],
@@ -221,7 +221,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Delete entity from directoryObjects",
+        "operationId": "Delete entity from directoryObjects",
         "parameters": [
           {
             "name": "id",
@@ -252,7 +252,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Invoke action getByIds",
+        "operationId": "Invoke action getByIds",
         "consumes": [
           "application/json"
         ],
@@ -295,7 +295,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Invoke action checkMemberGroups",
+        "operationId": "Invoke action checkMemberGroups",
         "consumes": [
           "application/json"
         ],
@@ -339,7 +339,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Invoke action getMemberGroups",
+        "operationId": "Invoke action getMemberGroups",
         "consumes": [
           "application/json"
         ],
@@ -381,7 +381,7 @@
         "tags": [
           "directoryObjects"
         ],
-        "summary": "Invoke action getMemberObjects",
+        "operationId": "Invoke action getMemberObjects",
         "consumes": [
           "application/json"
         ],
@@ -423,7 +423,7 @@
         "tags": [
           "devices"
         ],
-        "summary": "Get entities from devices",
+        "operationId": "Get entities from devices",
         "produces": [
           "application/json"
         ],
@@ -554,7 +554,7 @@
         "tags": [
           "devices"
         ],
-        "summary": "Add new entity to devices",
+        "operationId": "Add new entity to devices",
         "consumes": [
           "application/json"
         ],
@@ -589,7 +589,7 @@
         "tags": [
           "devices"
         ],
-        "summary": "Get entity from devices by key",
+        "operationId": "Get entity from devices by key",
         "produces": [
           "application/json"
         ],
@@ -660,7 +660,7 @@
         "tags": [
           "devices"
         ],
-        "summary": "Update entity in devices",
+        "operationId": "Update entity in devices",
         "consumes": [
           "application/json"
         ],
@@ -694,7 +694,7 @@
         "tags": [
           "devices"
         ],
-        "summary": "Delete entity from devices",
+        "operationId": "Delete entity from devices",
         "parameters": [
           {
             "name": "id",
@@ -725,7 +725,7 @@
         "tags": [
           "domains"
         ],
-        "summary": "Get entities from domains",
+        "operationId": "Get entities from domains",
         "produces": [
           "application/json"
         ],
@@ -838,7 +838,7 @@
         "tags": [
           "domains"
         ],
-        "summary": "Add new entity to domains",
+        "operationId": "Add new entity to domains",
         "consumes": [
           "application/json"
         ],
@@ -873,7 +873,7 @@
         "tags": [
           "domains"
         ],
-        "summary": "Get entity from domains by key",
+        "operationId": "Get entity from domains by key",
         "produces": [
           "application/json"
         ],
@@ -938,7 +938,7 @@
         "tags": [
           "domains"
         ],
-        "summary": "Update entity in domains",
+        "operationId": "Update entity in domains",
         "consumes": [
           "application/json"
         ],
@@ -972,7 +972,7 @@
         "tags": [
           "domains"
         ],
-        "summary": "Delete entity from domains",
+        "operationId": "Delete entity from domains",
         "parameters": [
           {
             "name": "id",
@@ -1003,7 +1003,7 @@
         "tags": [
           "domains"
         ],
-        "summary": "Invoke action verify",
+        "operationId": "Invoke action verify",
         "parameters": [
           {
             "name": "id",
@@ -1028,7 +1028,7 @@
         "tags": [
           "domainDnsRecords"
         ],
-        "summary": "Get entities from domainDnsRecords",
+        "operationId": "Get entities from domainDnsRecords",
         "produces": [
           "application/json"
         ],
@@ -1126,7 +1126,7 @@
         "tags": [
           "domainDnsRecords"
         ],
-        "summary": "Add new entity to domainDnsRecords",
+        "operationId": "Add new entity to domainDnsRecords",
         "consumes": [
           "application/json"
         ],
@@ -1161,7 +1161,7 @@
         "tags": [
           "domainDnsRecords"
         ],
-        "summary": "Get entity from domainDnsRecords by key",
+        "operationId": "Get entity from domainDnsRecords by key",
         "produces": [
           "application/json"
         ],
@@ -1219,7 +1219,7 @@
         "tags": [
           "domainDnsRecords"
         ],
-        "summary": "Update entity in domainDnsRecords",
+        "operationId": "Update entity in domainDnsRecords",
         "consumes": [
           "application/json"
         ],
@@ -1253,7 +1253,7 @@
         "tags": [
           "domainDnsRecords"
         ],
-        "summary": "Delete entity from domainDnsRecords",
+        "operationId": "Delete entity from domainDnsRecords",
         "parameters": [
           {
             "name": "id",
@@ -1284,7 +1284,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Get entities from groups",
+        "operationId": "Get entities from groups",
         "produces": [
           "application/json"
         ],
@@ -1438,7 +1438,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Add new entity to groups",
+        "operationId": "Add new entity to groups",
         "consumes": [
           "application/json"
         ],
@@ -1473,7 +1473,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Get entity from groups by key",
+        "operationId": "Get entity from groups by key",
         "produces": [
           "application/json"
         ],
@@ -1563,7 +1563,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Update entity in groups",
+        "operationId": "Update entity in groups",
         "consumes": [
           "application/json"
         ],
@@ -1597,7 +1597,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Delete entity from groups",
+        "operationId": "Delete entity from groups",
         "parameters": [
           {
             "name": "id",
@@ -1628,7 +1628,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Invoke function delta",
+        "operationId": "Invoke function delta",
         "produces": [
           "application/json"
         ],
@@ -1651,7 +1651,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Invoke action subscribeByMail",
+        "operationId": "Invoke action subscribeByMail",
         "parameters": [
           {
             "name": "id",
@@ -1676,7 +1676,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Invoke action unsubscribeByMail",
+        "operationId": "Invoke action unsubscribeByMail",
         "parameters": [
           {
             "name": "id",
@@ -1701,7 +1701,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Invoke action addFavorite",
+        "operationId": "Invoke action addFavorite",
         "parameters": [
           {
             "name": "id",
@@ -1726,7 +1726,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Invoke action removeFavorite",
+        "operationId": "Invoke action removeFavorite",
         "parameters": [
           {
             "name": "id",
@@ -1751,7 +1751,7 @@
         "tags": [
           "groups"
         ],
-        "summary": "Invoke action resetUnseenCount",
+        "operationId": "Invoke action resetUnseenCount",
         "parameters": [
           {
             "name": "id",
@@ -1776,7 +1776,7 @@
         "tags": [
           "directoryRoles"
         ],
-        "summary": "Get entities from directoryRoles",
+        "operationId": "Get entities from directoryRoles",
         "produces": [
           "application/json"
         ],
@@ -1869,7 +1869,7 @@
         "tags": [
           "directoryRoles"
         ],
-        "summary": "Add new entity to directoryRoles",
+        "operationId": "Add new entity to directoryRoles",
         "consumes": [
           "application/json"
         ],
@@ -1904,7 +1904,7 @@
         "tags": [
           "directoryRoles"
         ],
-        "summary": "Get entity from directoryRoles by key",
+        "operationId": "Get entity from directoryRoles by key",
         "produces": [
           "application/json"
         ],
@@ -1961,7 +1961,7 @@
         "tags": [
           "directoryRoles"
         ],
-        "summary": "Update entity in directoryRoles",
+        "operationId": "Update entity in directoryRoles",
         "consumes": [
           "application/json"
         ],
@@ -1995,7 +1995,7 @@
         "tags": [
           "directoryRoles"
         ],
-        "summary": "Delete entity from directoryRoles",
+        "operationId": "Delete entity from directoryRoles",
         "parameters": [
           {
             "name": "id",
@@ -2026,7 +2026,7 @@
         "tags": [
           "directoryRoleTemplates"
         ],
-        "summary": "Get entities from directoryRoleTemplates",
+        "operationId": "Get entities from directoryRoleTemplates",
         "produces": [
           "application/json"
         ],
@@ -2115,7 +2115,7 @@
         "tags": [
           "directoryRoleTemplates"
         ],
-        "summary": "Add new entity to directoryRoleTemplates",
+        "operationId": "Add new entity to directoryRoleTemplates",
         "consumes": [
           "application/json"
         ],
@@ -2150,7 +2150,7 @@
         "tags": [
           "directoryRoleTemplates"
         ],
-        "summary": "Get entity from directoryRoleTemplates by key",
+        "operationId": "Get entity from directoryRoleTemplates by key",
         "produces": [
           "application/json"
         ],
@@ -2205,7 +2205,7 @@
         "tags": [
           "directoryRoleTemplates"
         ],
-        "summary": "Update entity in directoryRoleTemplates",
+        "operationId": "Update entity in directoryRoleTemplates",
         "consumes": [
           "application/json"
         ],
@@ -2239,7 +2239,7 @@
         "tags": [
           "directoryRoleTemplates"
         ],
-        "summary": "Delete entity from directoryRoleTemplates",
+        "operationId": "Delete entity from directoryRoleTemplates",
         "parameters": [
           {
             "name": "id",
@@ -2270,7 +2270,7 @@
         "tags": [
           "organization"
         ],
-        "summary": "Get entities from organization",
+        "operationId": "Get entities from organization",
         "produces": [
           "application/json"
         ],
@@ -2408,7 +2408,7 @@
         "tags": [
           "organization"
         ],
-        "summary": "Add new entity to organization",
+        "operationId": "Add new entity to organization",
         "consumes": [
           "application/json"
         ],
@@ -2443,7 +2443,7 @@
         "tags": [
           "organization"
         ],
-        "summary": "Get entity from organization by key",
+        "operationId": "Get entity from organization by key",
         "produces": [
           "application/json"
         ],
@@ -2515,7 +2515,7 @@
         "tags": [
           "organization"
         ],
-        "summary": "Update entity in organization",
+        "operationId": "Update entity in organization",
         "consumes": [
           "application/json"
         ],
@@ -2549,7 +2549,7 @@
         "tags": [
           "organization"
         ],
-        "summary": "Delete entity from organization",
+        "operationId": "Delete entity from organization",
         "parameters": [
           {
             "name": "id",
@@ -2580,7 +2580,7 @@
         "tags": [
           "groupSettings"
         ],
-        "summary": "Get entities from groupSettings",
+        "operationId": "Get entities from groupSettings",
         "produces": [
           "application/json"
         ],
@@ -2672,7 +2672,7 @@
         "tags": [
           "groupSettings"
         ],
-        "summary": "Add new entity to groupSettings",
+        "operationId": "Add new entity to groupSettings",
         "consumes": [
           "application/json"
         ],
@@ -2707,7 +2707,7 @@
         "tags": [
           "groupSettings"
         ],
-        "summary": "Get entity from groupSettings by key",
+        "operationId": "Get entity from groupSettings by key",
         "produces": [
           "application/json"
         ],
@@ -2763,7 +2763,7 @@
         "tags": [
           "groupSettings"
         ],
-        "summary": "Update entity in groupSettings",
+        "operationId": "Update entity in groupSettings",
         "consumes": [
           "application/json"
         ],
@@ -2797,7 +2797,7 @@
         "tags": [
           "groupSettings"
         ],
-        "summary": "Delete entity from groupSettings",
+        "operationId": "Delete entity from groupSettings",
         "parameters": [
           {
             "name": "id",
@@ -2828,7 +2828,7 @@
         "tags": [
           "groupSettingTemplates"
         ],
-        "summary": "Get entities from groupSettingTemplates",
+        "operationId": "Get entities from groupSettingTemplates",
         "produces": [
           "application/json"
         ],
@@ -2920,7 +2920,7 @@
         "tags": [
           "groupSettingTemplates"
         ],
-        "summary": "Add new entity to groupSettingTemplates",
+        "operationId": "Add new entity to groupSettingTemplates",
         "consumes": [
           "application/json"
         ],
@@ -2955,7 +2955,7 @@
         "tags": [
           "groupSettingTemplates"
         ],
-        "summary": "Get entity from groupSettingTemplates by key",
+        "operationId": "Get entity from groupSettingTemplates by key",
         "produces": [
           "application/json"
         ],
@@ -3011,7 +3011,7 @@
         "tags": [
           "groupSettingTemplates"
         ],
-        "summary": "Update entity in groupSettingTemplates",
+        "operationId": "Update entity in groupSettingTemplates",
         "consumes": [
           "application/json"
         ],
@@ -3045,7 +3045,7 @@
         "tags": [
           "groupSettingTemplates"
         ],
-        "summary": "Delete entity from groupSettingTemplates",
+        "operationId": "Delete entity from groupSettingTemplates",
         "parameters": [
           {
             "name": "id",
@@ -3076,7 +3076,7 @@
         "tags": [
           "subscribedSkus"
         ],
-        "summary": "Get entities from subscribedSkus",
+        "operationId": "Get entities from subscribedSkus",
         "produces": [
           "application/json"
         ],
@@ -3180,7 +3180,7 @@
         "tags": [
           "subscribedSkus"
         ],
-        "summary": "Add new entity to subscribedSkus",
+        "operationId": "Add new entity to subscribedSkus",
         "consumes": [
           "application/json"
         ],
@@ -3215,7 +3215,7 @@
         "tags": [
           "subscribedSkus"
         ],
-        "summary": "Get entity from subscribedSkus by key",
+        "operationId": "Get entity from subscribedSkus by key",
         "produces": [
           "application/json"
         ],
@@ -3275,7 +3275,7 @@
         "tags": [
           "subscribedSkus"
         ],
-        "summary": "Update entity in subscribedSkus",
+        "operationId": "Update entity in subscribedSkus",
         "consumes": [
           "application/json"
         ],
@@ -3309,7 +3309,7 @@
         "tags": [
           "subscribedSkus"
         ],
-        "summary": "Delete entity from subscribedSkus",
+        "operationId": "Delete entity from subscribedSkus",
         "parameters": [
           {
             "name": "id",
@@ -3340,7 +3340,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Get entities from users",
+        "operationId": "Get entities from users",
         "produces": [
           "application/json"
         ],
@@ -3578,7 +3578,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Add new entity to users",
+        "operationId": "Add new entity to users",
         "consumes": [
           "application/json"
         ],
@@ -3613,7 +3613,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Get entity from users by key",
+        "operationId": "Get entity from users by key",
         "produces": [
           "application/json"
         ],
@@ -3735,7 +3735,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Update entity in users",
+        "operationId": "Update entity in users",
         "consumes": [
           "application/json"
         ],
@@ -3769,7 +3769,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Delete entity from users",
+        "operationId": "Delete entity from users",
         "parameters": [
           {
             "name": "id",
@@ -3800,7 +3800,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Invoke function delta",
+        "operationId": "Invoke function delta",
         "produces": [
           "application/json"
         ],
@@ -3823,7 +3823,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Invoke action assignLicense",
+        "operationId": "Invoke action assignLicense",
         "consumes": [
           "application/json"
         ],
@@ -3875,7 +3875,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Invoke action changePassword",
+        "operationId": "Invoke action changePassword",
         "consumes": [
           "application/json"
         ],
@@ -3919,7 +3919,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Invoke action sendMail",
+        "operationId": "Invoke action sendMail",
         "consumes": [
           "application/json"
         ],
@@ -3964,7 +3964,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Invoke action findMeetingTimes",
+        "operationId": "Invoke action findMeetingTimes",
         "consumes": [
           "application/json"
         ],
@@ -4030,7 +4030,7 @@
         "tags": [
           "users"
         ],
-        "summary": "Invoke function reminderView",
+        "operationId": "Invoke function reminderView",
         "produces": [
           "application/json"
         ],
@@ -4064,7 +4064,7 @@
         "tags": [
           "contracts"
         ],
-        "summary": "Get entities from contracts",
+        "operationId": "Get entities from contracts",
         "produces": [
           "application/json"
         ],
@@ -4159,7 +4159,7 @@
         "tags": [
           "contracts"
         ],
-        "summary": "Add new entity to contracts",
+        "operationId": "Add new entity to contracts",
         "consumes": [
           "application/json"
         ],
@@ -4194,7 +4194,7 @@
         "tags": [
           "contracts"
         ],
-        "summary": "Get entity from contracts by key",
+        "operationId": "Get entity from contracts by key",
         "produces": [
           "application/json"
         ],
@@ -4251,7 +4251,7 @@
         "tags": [
           "contracts"
         ],
-        "summary": "Update entity in contracts",
+        "operationId": "Update entity in contracts",
         "consumes": [
           "application/json"
         ],
@@ -4285,7 +4285,7 @@
         "tags": [
           "contracts"
         ],
-        "summary": "Delete entity from contracts",
+        "operationId": "Delete entity from contracts",
         "parameters": [
           {
             "name": "id",
@@ -4316,7 +4316,7 @@
         "tags": [
           "schemaExtensions"
         ],
-        "summary": "Get entities from schemaExtensions",
+        "operationId": "Get entities from schemaExtensions",
         "produces": [
           "application/json"
         ],
@@ -4414,7 +4414,7 @@
         "tags": [
           "schemaExtensions"
         ],
-        "summary": "Add new entity to schemaExtensions",
+        "operationId": "Add new entity to schemaExtensions",
         "consumes": [
           "application/json"
         ],
@@ -4449,7 +4449,7 @@
         "tags": [
           "schemaExtensions"
         ],
-        "summary": "Get entity from schemaExtensions by key",
+        "operationId": "Get entity from schemaExtensions by key",
         "produces": [
           "application/json"
         ],
@@ -4507,7 +4507,7 @@
         "tags": [
           "schemaExtensions"
         ],
-        "summary": "Update entity in schemaExtensions",
+        "operationId": "Update entity in schemaExtensions",
         "consumes": [
           "application/json"
         ],
@@ -4541,7 +4541,7 @@
         "tags": [
           "schemaExtensions"
         ],
-        "summary": "Delete entity from schemaExtensions",
+        "operationId": "Delete entity from schemaExtensions",
         "parameters": [
           {
             "name": "id",
@@ -4572,7 +4572,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Get entities from drives",
+        "operationId": "Get entities from drives",
         "produces": [
           "application/json"
         ],
@@ -4703,7 +4703,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Add new entity to drives",
+        "operationId": "Add new entity to drives",
         "consumes": [
           "application/json"
         ],
@@ -4738,7 +4738,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Get entity from drives by key",
+        "operationId": "Get entity from drives by key",
         "produces": [
           "application/json"
         ],
@@ -4811,7 +4811,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Update entity in drives",
+        "operationId": "Update entity in drives",
         "consumes": [
           "application/json"
         ],
@@ -4845,7 +4845,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Delete entity from drives",
+        "operationId": "Delete entity from drives",
         "parameters": [
           {
             "name": "id",
@@ -4876,7 +4876,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Invoke function recent",
+        "operationId": "Invoke function recent",
         "produces": [
           "application/json"
         ],
@@ -4908,7 +4908,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Invoke function search",
+        "operationId": "Invoke function search",
         "produces": [
           "application/json"
         ],
@@ -4940,7 +4940,7 @@
         "tags": [
           "drives"
         ],
-        "summary": "Invoke function sharedWithMe",
+        "operationId": "Invoke function sharedWithMe",
         "produces": [
           "application/json"
         ],
@@ -4972,7 +4972,7 @@
         "tags": [
           "shares"
         ],
-        "summary": "Get entities from shares",
+        "operationId": "Get entities from shares",
         "produces": [
           "application/json"
         ],
@@ -5093,7 +5093,7 @@
         "tags": [
           "shares"
         ],
-        "summary": "Add new entity to shares",
+        "operationId": "Add new entity to shares",
         "consumes": [
           "application/json"
         ],
@@ -5128,7 +5128,7 @@
         "tags": [
           "shares"
         ],
-        "summary": "Get entity from shares by key",
+        "operationId": "Get entity from shares by key",
         "produces": [
           "application/json"
         ],
@@ -5199,7 +5199,7 @@
         "tags": [
           "shares"
         ],
-        "summary": "Update entity in shares",
+        "operationId": "Update entity in shares",
         "consumes": [
           "application/json"
         ],
@@ -5233,7 +5233,7 @@
         "tags": [
           "shares"
         ],
-        "summary": "Delete entity from shares",
+        "operationId": "Delete entity from shares",
         "parameters": [
           {
             "name": "id",
@@ -5264,7 +5264,7 @@
         "tags": [
           "sites"
         ],
-        "summary": "Get entities from sites",
+        "operationId": "Get entities from sites",
         "produces": [
           "application/json"
         ],
@@ -5396,7 +5396,7 @@
         "tags": [
           "sites"
         ],
-        "summary": "Add new entity to sites",
+        "operationId": "Add new entity to sites",
         "consumes": [
           "application/json"
         ],
@@ -5431,7 +5431,7 @@
         "tags": [
           "sites"
         ],
-        "summary": "Get entity from sites by key",
+        "operationId": "Get entity from sites by key",
         "produces": [
           "application/json"
         ],
@@ -5507,7 +5507,7 @@
         "tags": [
           "sites"
         ],
-        "summary": "Update entity in sites",
+        "operationId": "Update entity in sites",
         "consumes": [
           "application/json"
         ],
@@ -5541,7 +5541,7 @@
         "tags": [
           "sites"
         ],
-        "summary": "Delete entity from sites",
+        "operationId": "Delete entity from sites",
         "parameters": [
           {
             "name": "id",
@@ -5572,7 +5572,7 @@
         "tags": [
           "sites"
         ],
-        "summary": "Invoke function getByPath",
+        "operationId": "Invoke function getByPath",
         "produces": [
           "application/json"
         ],
@@ -5601,7 +5601,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Get entities from workbooks",
+        "operationId": "Get entities from workbooks",
         "produces": [
           "application/json"
         ],
@@ -5778,7 +5778,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Add new entity to workbooks",
+        "operationId": "Add new entity to workbooks",
         "consumes": [
           "application/json"
         ],
@@ -5813,7 +5813,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Get entity from workbooks by key",
+        "operationId": "Get entity from workbooks by key",
         "produces": [
           "application/json"
         ],
@@ -5902,7 +5902,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Update entity in workbooks",
+        "operationId": "Update entity in workbooks",
         "consumes": [
           "application/json"
         ],
@@ -5936,7 +5936,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Delete entity from workbooks",
+        "operationId": "Delete entity from workbooks",
         "parameters": [
           {
             "name": "id",
@@ -5967,7 +5967,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Invoke function delta",
+        "operationId": "Invoke function delta",
         "produces": [
           "application/json"
         ],
@@ -5999,7 +5999,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Invoke function delta",
+        "operationId": "Invoke function delta",
         "produces": [
           "application/json"
         ],
@@ -6031,7 +6031,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Invoke function search",
+        "operationId": "Invoke function search",
         "produces": [
           "application/json"
         ],
@@ -6063,7 +6063,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Invoke action copy",
+        "operationId": "Invoke action copy",
         "consumes": [
           "application/json"
         ],
@@ -6105,7 +6105,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Invoke action createLink",
+        "operationId": "Invoke action createLink",
         "consumes": [
           "application/json"
         ],
@@ -6149,7 +6149,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Invoke action createUploadSession",
+        "operationId": "Invoke action createUploadSession",
         "consumes": [
           "application/json"
         ],
@@ -6188,7 +6188,7 @@
         "tags": [
           "workbooks"
         ],
-        "summary": "Invoke action invite",
+        "operationId": "Invoke action invite",
         "consumes": [
           "application/json"
         ],
@@ -6249,7 +6249,7 @@
         "tags": [
           "subscriptions"
         ],
-        "summary": "Get entities from subscriptions",
+        "operationId": "Get entities from subscriptions",
         "produces": [
           "application/json"
         ],
@@ -6347,7 +6347,7 @@
         "tags": [
           "subscriptions"
         ],
-        "summary": "Add new entity to subscriptions",
+        "operationId": "Add new entity to subscriptions",
         "consumes": [
           "application/json"
         ],
@@ -6382,7 +6382,7 @@
         "tags": [
           "subscriptions"
         ],
-        "summary": "Get entity from subscriptions by key",
+        "operationId": "Get entity from subscriptions by key",
         "produces": [
           "application/json"
         ],
@@ -6440,7 +6440,7 @@
         "tags": [
           "subscriptions"
         ],
-        "summary": "Update entity in subscriptions",
+        "operationId": "Update entity in subscriptions",
         "consumes": [
           "application/json"
         ],
@@ -6474,7 +6474,7 @@
         "tags": [
           "subscriptions"
         ],
-        "summary": "Delete entity from subscriptions",
+        "operationId": "Delete entity from subscriptions",
         "parameters": [
           {
             "name": "id",
@@ -6505,7 +6505,7 @@
         "tags": [
           "invitations"
         ],
-        "summary": "Get entities from invitations",
+        "operationId": "Get entities from invitations",
         "produces": [
           "application/json"
         ],
@@ -6613,7 +6613,7 @@
         "tags": [
           "invitations"
         ],
-        "summary": "Add new entity to invitations",
+        "operationId": "Add new entity to invitations",
         "consumes": [
           "application/json"
         ],
@@ -6648,7 +6648,7 @@
         "tags": [
           "invitations"
         ],
-        "summary": "Get entity from invitations by key",
+        "operationId": "Get entity from invitations by key",
         "produces": [
           "application/json"
         ],
@@ -6710,7 +6710,7 @@
         "tags": [
           "invitations"
         ],
-        "summary": "Update entity in invitations",
+        "operationId": "Update entity in invitations",
         "consumes": [
           "application/json"
         ],
@@ -6744,7 +6744,7 @@
         "tags": [
           "invitations"
         ],
-        "summary": "Delete entity from invitations",
+        "operationId": "Delete entity from invitations",
         "parameters": [
           {
             "name": "id",
@@ -6775,7 +6775,7 @@
         "tags": [
           "me"
         ],
-        "summary": "Get me",
+        "operationId": "Get me",
         "produces": [
           "application/json"
         ],
@@ -6890,7 +6890,7 @@
         "tags": [
           "me"
         ],
-        "summary": "Update me",
+        "operationId": "Update me",
         "consumes": [
           "application/json"
         ],
@@ -6919,7 +6919,7 @@
         "tags": [
           "me"
         ],
-        "summary": "Invoke action assignLicense",
+        "operationId": "Invoke action assignLicense",
         "consumes": [
           "application/json"
         ],
@@ -6964,7 +6964,7 @@
         "tags": [
           "me"
         ],
-        "summary": "Invoke action changePassword",
+        "operationId": "Invoke action changePassword",
         "consumes": [
           "application/json"
         ],
@@ -7001,7 +7001,7 @@
         "tags": [
           "me"
         ],
-        "summary": "Invoke action sendMail",
+        "operationId": "Invoke action sendMail",
         "consumes": [
           "application/json"
         ],
@@ -7039,7 +7039,7 @@
         "tags": [
           "me"
         ],
-        "summary": "Invoke action findMeetingTimes",
+        "operationId": "Invoke action findMeetingTimes",
         "consumes": [
           "application/json"
         ],
@@ -7098,7 +7098,7 @@
         "tags": [
           "me"
         ],
-        "summary": "Invoke function reminderView",
+        "operationId": "Invoke function reminderView",
         "produces": [
           "application/json"
         ],
@@ -7137,7 +7137,7 @@
         "tags": [
           "drive"
         ],
-        "summary": "Get drive",
+        "operationId": "Get drive",
         "produces": [
           "application/json"
         ],
@@ -7203,7 +7203,7 @@
         "tags": [
           "drive"
         ],
-        "summary": "Update drive",
+        "operationId": "Update drive",
         "consumes": [
           "application/json"
         ],
@@ -7232,7 +7232,7 @@
         "tags": [
           "drive"
         ],
-        "summary": "Invoke function recent",
+        "operationId": "Invoke function recent",
         "produces": [
           "application/json"
         ],
@@ -7255,7 +7255,7 @@
         "tags": [
           "drive"
         ],
-        "summary": "Invoke function search",
+        "operationId": "Invoke function search",
         "produces": [
           "application/json"
         ],
@@ -7286,7 +7286,7 @@
         "tags": [
           "drive"
         ],
-        "summary": "Invoke function sharedWithMe",
+        "operationId": "Invoke function sharedWithMe",
         "produces": [
           "application/json"
         ],
@@ -7309,7 +7309,7 @@
         "tags": [
           "planner"
         ],
-        "summary": "Get planner",
+        "operationId": "Get planner",
         "produces": [
           "application/json"
         ],
@@ -7358,7 +7358,7 @@
         "tags": [
           "planner"
         ],
-        "summary": "Update planner",
+        "operationId": "Update planner",
         "consumes": [
           "application/json"
         ],
