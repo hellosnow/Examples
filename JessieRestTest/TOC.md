@@ -1,1 +1,5 @@
-# [Index](index.md)
+# [Azure REST API Reference](/rest/api/azure/)
+# [Visual Studio Team Services REST API Reference](/rest/api/vsts)
+# [Dynamics 365 Online Management REST API for Customer Engagement Reference](/rest/api/admin.services.crm.dynamics.com/)
+# [Kaizala REST API Reference](/rest/kaizala/)
+# [System Center Operations Manager REST API Reference](/rest/operationsmanager/)
