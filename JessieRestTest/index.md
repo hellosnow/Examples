@@ -1,6 +1,3 @@
----
-layout: ContentPage
----
 
 # REST API Reference
 
