@@ -2,6 +2,7 @@
   "build": {
     "content": [
       {
+        "src": ".",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -15,23 +16,22 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
         ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ]
+        "dest": "api"
       }
     ],
+    "resource": [{
+      "files": [
+        "**/*.png",
+        "**/*.jpg"
+      ],
+      "exclude": [
+        "**/obj/**",
+        "**/includes/**",
+        "_themes/**",
+        "_themes.pdf/**"
+      ]
+    }],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
