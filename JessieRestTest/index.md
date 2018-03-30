@@ -1,4 +1,8 @@
 
+---
+layout: ContentPage
+---
+
 # REST API Reference
 
 * [Azure REST API Reference](/rest/api/azure/)
