@@ -1,0 +1,11 @@
+{
+    "redirections": [
+        {
+            "source_path": "JessieRestTest/a.md",
+            "redirect_url": "www.bing.com",
+            "redirect_document_id": false
+        },{
+            "source_path": "a.md",
+            "redirect_url": "www.bing.com",
+            "redirect_document_id": false
+        }]}
