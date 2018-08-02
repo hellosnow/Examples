@@ -1481,7 +1481,7 @@
 				}],
 				"responses": {
 					"200": {
-						"$ref": "#/responses/ResponseSample"
+						"$ref": "#/definitions/ResponseSample"
 					},
 					"400": {
 						"$ref": "#/responses/ApiErrorWrapper"
