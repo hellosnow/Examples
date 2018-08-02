@@ -1481,7 +1481,7 @@
 				}],
 				"responses": {
 					"200": {
-						"$ref": "#/definitions/ResponseSample"
+						"$ref": "#/responses/ResponseSample"
 					},
 					"400": {
 						"$ref": "#/responses/ApiErrorWrapper"
@@ -9796,43 +9796,21 @@
 		}
 	},
 	"definitions": {
-		"ResponseSample": {
-			"description": "The basic wrapper around all successful api calls",
-			"schema": {
-				"type": "object",
-				"properties": {
-					"code": {
-						"type": "integer",
-						"description": "The Http status code. If X-ReportErrorAsSuccess header is set to true, this will report the actual http error code."
-					},
-					"status": {
-						"type": "string",
-						"description": "The Http status code as a string."
-					},
-					"data": {
-						"$ref": "#/responses/GetCharacterDataResult"
-					}
-				},
-				"example": {
-					"code": 200,
-					"status": 200,
-					"data": {
-						"CharacterId": "1234436343",
-						"Data": {
-							"preferences": {
-								"Value": "alpha",
-								"LastUpdated": "2014-08-20T12:30:45",
-								"Permission": "Public"
-							},
-							"progress": {
-								"Value": "level_twenty",
-								"LastUpdated": "2014-09-01T10:12:30"
-							}
-						},
-						"DataVersion": 12
-					}
-				}
-			}
+		"ResponseSampleWrapper": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "description": "The Http status code. If X-ReportErrorAsSuccess header is set to true, this will report the actual http error code."
+        },
+        "status": {
+          "type": "string",
+          "description": "The Http status code as a string."
+        },
+        "data": {
+          "$ref": "#/responses/GetCharacterDataResult"
+        }
+      }
 		},
 		"ApiErrorWrapper": {
 			"description": "The basic wrapper around every failed API result",
@@ -21147,6 +21125,12 @@
 		}
 	},
 	"responses": {
+		"ResponseSample": {
+			"description": "The basic wrapper around all successful api calls",
+			"schema": {
+				"$ref": "#/definitions/ResponseSampleWrapper"
+			}
+		},
 		"ApiErrorWrapper": {
 			"description": "This is the outer-wrapper for all results with errors",
 			"schema": {
